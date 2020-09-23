@@ -21,7 +21,9 @@
         <div class="media-content">
           <div class="content">
             <h1>Mastodon</h1> is a social network that is fully decentralized through the <a href=https://en.wikipedia.org/wiki/Fediverse>Fediverse network</a>.
-            Alternatives to Mastodon are Pleroma or Twitter.
+            <p>
+              Alternatives to Mastodon are Pleroma or Twitter.
+            </p>
             <nav>
               <a class="button is-link" href="https://mastodon.connect.cafe">Connect to Mastodon</a>
             </nav>
@@ -51,10 +53,36 @@
         </div>
       </article>
     </div>
+
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img src="images/jitsi.svg" alt="Jitsi">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <h1>Meet</h1> is a multi users visio-call application with screen sharing capabilities.<br>
+            Based on <a href="https://jitsi.org">Jitsi</a>, you can <a href="https://jitsi.org/#download">download a mobile application</a> to connect from your device.
+            <p>
+              Alternatives to Meet are Whereby, Hangout, Zoom.
+            </p>
+            <nav>
+              <a class="button is-link" href="https://meet.connect.cafe">Connect to Meet</a>
+            </nav>
+          </div>
+        </div>
+      </article>
+    </div>
+
   </section>
 </main>
 
 <style>
+  * {
+    box-sizing: border-box;
+  }
   body {
     background-color: #efefef;
   }
@@ -77,7 +105,8 @@
   }
   main section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
+    flex-wrap: wrap;
   }
 
   article h1 {
@@ -87,7 +116,7 @@
   }
 
   .box {
-    max-width: 400px;
+    width: 440px;
     margin-bottom: 1.5rem !important;
   }
 </style>
